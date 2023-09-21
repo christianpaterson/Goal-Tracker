@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(150, 130, 100);
+  background-color: rgb(210, 190, 150);
+  padding: 50px;
+  margin: 10px;
+}
+
+.footer {
+  padding: 50px;
+  margin: 10px;
+}
+
+.goal {
+  margin: 50px 10px;
+}
+
+.info {
+  border: 1px solid burlywood;
+  color: limegreen;
+  display: flex;
+}
+
+.input {
+  outline: none;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  border: 1px solid saddlebrown;
+  background-color: sandybrown;
+}
+
+p {
+  border: inherit;
+  color: initial;
+  text-align: center;
+  margin: 1px;
+  flex-grow: 1;
+}
+
+button {
+  outline: none;
+  padding: 0.5em 1em;
+  border: 1px solid #533;
+  background-color: darksalmon;
+  border-radius: 0.4em;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 2px 2px 5px #644;
+  background: linear-gradient(to right, salmon, burlywood);
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* .meditation {
+  color: hsl(175, 50%, 50%);
+}
+
+.gym {
+  color: hsl(125, 90%, 30%);
+}
+
+.code {
+  color: hsl(20, 70%, 50%);
+}
+
+.cold {
+  color: hsl(310, 70%, 70%);
+} */
