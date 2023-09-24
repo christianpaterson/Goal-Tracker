@@ -1,35 +1,39 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
 
-.container {
-  background-color: rgb(150, 130, 100);
-  background-color: rgb(210, 190, 150);
-  padding: 50px;
-  margin: 10px;
-}
-
+/* Container and Footer Styles */
+.container,
 .footer {
   padding: 50px;
   margin: 10px;
 }
 
-.goal {
-  margin: 50px 10px;
+.container {
+  background-color: rgb(150, 130, 100);
+  background-color: rgb(210, 190, 150);
 }
 
+/* Info Section Styles */
 .info {
   border: 1px solid burlywood;
   color: limegreen;
   display: flex;
 }
 
+/* Input Styles */
 .input {
   outline: none;
   padding: 0.5em;
   border-radius: 0.2em;
   border: 1px solid saddlebrown;
   background-color: sandybrown;
+}
+
+/* Goal Styles */
+.goal p {
+  margin: 50px 10px;
 }
 
 p {
