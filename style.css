@@ -1,18 +1,65 @@
-/* Global Styles */
 * {
   box-sizing: border-box;
 }
 
 /* Container and Footer Styles */
-.container,
-.footer {
+.container {
   padding: 50px;
   margin: 10px;
-}
-
-.container {
+  height: 40vh;
+  display: flex;
   background-color: rgb(150, 130, 100);
   background-color: rgb(210, 190, 150);
+}
+
+.meditation-annual {
+  padding: 5px;
+  margin: 10px;
+  background-color: hsl(175, 50%, 30%);
+}
+
+.gym-annual {
+  padding: 5px;
+  margin: 10px;
+  background-color: hsl(125, 90%, 30%);
+}
+
+.code-annual {
+  padding: 5px;
+  margin: 10px;
+  background-color: hsl(20, 70%, 50%);
+}
+
+.spacer {
+  width: 5%;
+  min-width: 15px;
+}
+
+.input {
+  outline: none;
+  padding: 0.5em;
+  border-radius: 0.2em;
+  border: 1px solid saddlebrown;
+  background-color: sandybrown;
+}
+
+.count-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count-display {
+  border: 1px solid #533;
+  box-shadow: 2px 2px 5px #644;
+  background: linear-gradient(to right, salmon, burlywood);
+  border-radius: 0.4em;
+  height: 35%;
+  width: 100px;
+  padding: 0 5px;
+}
+
+.count-display p {
+  margin: 10px 0;
 }
 
 /* Info Section Styles */
@@ -22,26 +69,19 @@
   display: flex;
 }
 
-/* Input Styles */
-.input {
-  outline: none;
-  padding: 0.5em;
-  border-radius: 0.2em;
-  border: 1px solid saddlebrown;
-  background-color: sandybrown;
-}
-
-/* Goal Styles */
-.goal p {
-  margin: 50px 10px;
-}
-
-p {
+.info p {
   border: inherit;
   color: initial;
   text-align: center;
   margin: 1px;
   flex-grow: 1;
+}
+
+/* Input Styles */
+
+/* Goal Styles */
+.goal {
+  margin: 10px 0;
 }
 
 button {
@@ -61,6 +101,11 @@ button:hover {
   opacity: 0.9;
 }
 
+.finish-button {
+  height: 40%;
+  margin: 0 15px;
+}
+
 .meditation {
   color: hsl(175, 90%, 35%);
 }
@@ -75,4 +120,27 @@ button:hover {
 
 .cold {
   color: hsl(310, 70%, 70%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.f {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(310, 70%, 70%);
+}
+
+.s {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(180, 70%, 70%);
+}
+
+.t {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(90, 70%, 70%);
 }
